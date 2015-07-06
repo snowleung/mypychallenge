@@ -9,3 +9,6 @@ let's rock!!!!
 * +2 know in pic
 * y->a, z->b know in tips
 * use trans table is better.
+
+###L2
+* use find characters parttern => '[a-zA-Z]'
