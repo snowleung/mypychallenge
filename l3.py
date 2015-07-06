@@ -13,7 +13,7 @@ rexp = r'(?<=[a-z][A-Z]{3})[a-z](?=[A-Z]{3}[a-z])'
 
 def _find():
     source = re.findall(r'<!--.*?-->', (''.join(SOURCE_TEXT.readlines())).replace('\n', ''))[-1]
-    txt = re.findall(rexp2, source)
+    txt = re.findall(rexp, source)
     print ''.join(txt)          # linkedlist
 
 if __name__ == '__main__':
