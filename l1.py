@@ -17,6 +17,8 @@ def solutions2():
 
 
 def _select(l, char):
+    '''
+    '''
     if 'y' == char:
         l.append('a')  # { -> a
     elif 'z' == char:
@@ -31,6 +33,11 @@ def _select(l, char):
 def trans_map(s='map'):
     import string
     tb = string.maketrans(text, solutions2())
+    # or
+    # use string.lowercase
+    frm = string.lowercase       # a-z
+    to = string.lowercase[2:] + string.lowercase[:2]  # c-zab
+    tb = string.maketrans(frm, to)
     print string.translate('map', tb)  # map -> ocr
 
 
