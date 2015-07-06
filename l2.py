@@ -2,6 +2,7 @@
 
 '''
 from http://www.pythonchallenge.com/pc/def/ocr.html
+找到其中的字母
 '''
 import urllib2
 import re

@@ -11,4 +11,10 @@ let's rock!!!!
 * use trans table is better.
 
 ###L2
+* http://www.pythonchallenge.com/pc/def/ocr.html
 * use find characters parttern => '[a-zA-Z]'
+* （答案由）找到的字母组成
+
+###L3
+* http://www.pythonchallenge.com/pc/def/equality.html
+* （答案由）一个由三个大写字母围绕着一个小写组合而成(即SSSaSSS，匹配其中的a)
