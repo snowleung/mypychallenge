@@ -27,3 +27,7 @@ let's rock!!!!
 * req -> http://www.pythonchallenge.com/pc/def/banner.p （在源码中）
 * pickle.load(req)
 * 发现是一个二维数组, 内容是(待打印的字符, 打印次数)，然后print它出来得出答案。（这里有个巧妙就是str*int ）
+
+###L6
+* channel.html -> channel.zip得到源文件（看了答案才知道）
+* 使用的是zipfile模块
