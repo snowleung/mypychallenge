@@ -3,13 +3,23 @@
 from http://www.pythonchallenge.com/pc/def/channel.html
 '''
 import re
+import urllib2
 import zipfile
 
 pattern = r'\d+'
-zdata = zipfile.ZipFile('/Users/samleung/Desktop/channel.zip')
-zip_dir = dict.fromkeys(zdata.namelist())
-START = None                 # at README.txt
+zdata = None
+zip_dir = None
+START = None
 
+def init():
+    # download_file
+    req = urllib2.urlopen('http://www.pythonchallenge.com/pc/def/channel.zip')
+    with open('./channel.zip', "wb") as local_file:
+        local_file.write(req.read())
+    global zdata
+    global zip_dir
+    zdata = zipfile.ZipFile('./channel.zip')
+    dict.fromkeys(zdata.namelist())
 
 def find_start():
     start_next = re.findall(pattern, zdata.read('readme.txt'))  # at README.txt
@@ -44,4 +54,5 @@ def collect_comments(namelist):
     return cc
 
 if __name__ == '__main__':
+    init()
     print ''.join(collect_comments(using_zip()))  # got hockey, but build by oxygen
