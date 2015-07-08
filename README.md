@@ -31,3 +31,9 @@ let's rock!!!!
 ###L6
 * channel.html -> channel.zip得到源文件（看了答案才知道）
 * 使用的是zipfile模块
+
+###7
+* oxygen.png 找到中间灰色的
+* 从l7联想到间隔是7（看答案的）
+* 用getpixel找x间隔是7的值得出数字，转为asc2得出结果
+* 再将结果中的数字转为asc2的字符得出最终结果
