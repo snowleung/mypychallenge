@@ -41,3 +41,8 @@ let's rock!!!!
 ###8
 * bee? busy? ------------> bz2 （果断看答案）
 * un, pw用bz2解即可知道用户名密码，然后点图片的链接去登陆
+
+
+###9
+* first+second? 其实first和second都分别隐含了(x, y), start=0, setp=2是x, start=1, step=2是y然后得出两条线，将这两条线画出来就看到一只公牛(bull)（看答案才知道的）
+* 所以first+second代表线条first+线条second得出一幅画
