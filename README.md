@@ -46,3 +46,6 @@ let's rock!!!!
 ###9
 * first+second? 其实first和second都分别隐含了(x, y), start=0, setp=2是x, start=1, step=2是y然后得出两条线，将这两条线画出来就看到一只公牛(bull)（看答案才知道的）
 * 所以first+second代表线条first+线条second得出一幅画
+
+###10
+* 外观数列, ref: https://zh.wikipedia.org/wiki/%E5%A4%96%E8%A7%80%E6%95%B8%E5%88%97
