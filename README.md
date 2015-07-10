@@ -58,5 +58,14 @@ let's rock!!!!
 
 ###L12
 * (完全看答案)
-* evil1.jpg==>evil2.jpg==>evil2.gfx
+* evil1.jpg==>evil2.jpg==>evil2.gfx,
+* 居然还有evil3.jpg, 显示no more evil
+* 继续evil4.jpg，是一张无法显示的图片（这个居然和L13有关）
 * read(evil2), 生成5张图（5是从图片中派5份牌联系到）
+
+
+###L13
+* 点图片中的5会连接到一个php，上面的东西和xml有关
+* 然后用xmlrpclib实现连接，调用system.listMethods()看到有个phone方法可以调用
+* 调用phone('Bert'), 得到答案
+* 用L12得到的evil4.jpg，使用文本工具打开evil4.jpg，就可以看到【Bert is evil! go back!】
