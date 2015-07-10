@@ -1,6 +1,9 @@
 # mypychallenge
 let's rock!!!!
 
+###REF
+* [The Python Challenge,Gareth Rees, 2007-05-07](http://garethrees.org/2007/05/07/python-challenge/)
+
 
 ###L0
 * just 2**38
