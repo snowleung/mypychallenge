@@ -1,7 +1,7 @@
 #local_file
 channel.zip
-oxygen.png
-answer.jpg
+*.jpg
+*.png
 # Created by https://www.gitignore.io
 
 ### Emacs ###

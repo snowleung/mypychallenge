@@ -49,3 +49,9 @@ let's rock!!!!
 
 ###10
 * 外观数列, ref: https://zh.wikipedia.org/wiki/%E5%A4%96%E8%A7%80%E6%95%B8%E5%88%97
+
+
+###L11
+* 用(odd, odd)和(even, even)像素下打印出来的都是同一幅图，图上有evil
+* putpixel的时候/2会让图片更清晰
+
