@@ -55,3 +55,8 @@ let's rock!!!!
 * 用(odd, odd)和(even, even)像素下打印出来的都是同一幅图，图上有evil
 * putpixel的时候/2会让图片更清晰
 
+
+###L12
+* (完全看答案)
+* evil1.jpg==>evil2.jpg==>evil2.gfx
+* read(evil2), 生成5张图（5是从图片中派5份牌联系到）
